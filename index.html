@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>01_div</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background: #ff0;
+            border: 1px solid #000;
+        }
+        .bb{
+            margin-left: 50px;
+            background: #0f0;
+        }
+        #box2{
+            margin-top: 50px;
+            background: #fa0;
+        }
+        .cc{
+            background: #0ff;
+            /* opacity: 0.3; */
+            float:left;
+        }
+        #box4{
+            clear: both;
+        }
+        .wrapper{
+            /* margin: 50px 100px; */
+            margin: 50px auto;
+            width: 306px;
+            height: 102px;
+            padding: 10px;
+            background: #f00;
+            border: 1px solid #000;
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>01_div</h1>
+
+    <div>box1</div>
+    <div class="bb" id="box2">box2</div>
+    <div class="bb">box3</div>
+
+    <div class="cc">box1</div>
+    <div class="cc">box2</div>
+    <div class="cc">box3</div>
+    <div id="box4">box4</div>
+
+    <div class="wrapper">
+        <div class="cc">cc1</div>
+        <div class="cc">cc2</div>
+        <div class="cc">cc3</div>
+    </div>
+
+
+</body>
+</html>
